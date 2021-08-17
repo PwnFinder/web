@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ipt.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Righteous&family=Source+Code+Pro:ital,wght@0,300;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PwnFinder</title>
+</head>
+<body>
+    <section class="header">
+        <div class="nav">
+            <a href="#" class="logo">PwnFinder</a>
+        </div>
+    </section>
+    <div>
+        <div class="hero">
+            <div class="input">
+                <p class="text">
+                    We have a lot of social accounts that have been hacked before.
+                    Now we are going to help you to find that your account is hacked or not.
+                </p>
+                <form class="input2" method="post" action="javascript:check()">
+                    <label class="email" for="email">Enter Your Email:</label><br>
+                    <input required id="email"  class="email-box" name="email" type="email"  placeholder="example@email.com" size="30"><br>
+                    <label class="phone" for="num">Enter Your Phone Number:</label><br>
+                    <input required id="num"  class="phone-box" min="7" max="15" name="num" type="tel" placeholder="Number"size="30">
+                    <br>
+                    <input class="button" type="submit"value="Check" >
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

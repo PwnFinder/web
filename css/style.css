@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(c.jpg);
+    min-height: 100vh;
+    min-width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    background-color:#1b258b;
+    display: block;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin: auto;
+    position: fixed;
+    overflow:hidden;
+}
+.logo{
+    text-decoration: none;
+    border: 1.3vw solid #F2FEF3;
+    display: inline-block;
+    border-radius: 15vw;
+    padding: 1.7vw;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 2.9vw;
+}
+.hero{
+    margin: 79px 50px 10px;
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+}
+.text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+.email{
+    float: left;
+    display: block;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+}
+.phone{
+    float: left;
+    display: block;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+
+}
+.email-box{
+	border: 1px solid white;
+	outline: none;
+	margin-left: 7px;
+	border-radius: 5px;
+	padding: 4px;
+}
+.email-box:focus{
+    outline: none;
+    box-shadow: 0px 0px 15px #52b8f0;
+    border-color: #5AB0DB;
+}
+
+.email-box:hover {
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.phone-box{
+    border: 1px solid white;
+    outline: none;
+    margin-left: 7px;
+    border-radius: 5px;
+    padding: 4px;
+}
+.button{
+    float: right;
+    margin-top: 8px;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition-duration:.5s;
+    cursor:pointer;
+    background-color:#4c3dd8;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:700;
+}
+.button:hover{
+	content:' ';
+	background-color:#3f3c47;
+	display:block;
+    outline: none;
+}
+
+.phone-box:focus{
+    outline: none;
+    box-shadow: 0px 0px 15px #52b8f0;
+    border-color: #5AB0DB;
+}
+
+.phone-box:hover {
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline:none;
+}
+.chek{
+	padding:500px;
+	height:100px;
+	width:100%;
+}
+@media screen and (min-width:362px){
+    .nav{
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+    }
+    .logo{
+        border: .7vw solid;
+        display: inline;
+        padding: .8vw;
+        border-radius:13.38vw;
+        font-size: 2vw;
+        margin-left: 1.5vw;
+    }
+    .hero{
+        margin-top:12vw;
+    }
+    .text{
+        font-size:3.15vw;
+    }
+    .email{
+        font-size: 3vw;
+        float: left;
+    }
+    .phone{
+        font-size: 3vw;
+        float: left;
+    }
+    .email-box{
+        height: 2vw;
+        width: 70vw;
+    }
+    .phone-box{
+        height: 2vw;
+        width: 70vw;
+    }
+    .input2{
+        display: inline-block;
+    }
+    .button{
+        height: 3vw;
+        width: 8vw;
+        font-size: 2vw;
+    }
+}
