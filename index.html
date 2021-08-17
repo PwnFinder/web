@@ -23,14 +23,16 @@
 </head>
 <body>
     <script type="text/javascript">
-        function check(){
+  
+function check(){
 	var name = $('#num').val();
 	var emai = $('#email').val();
 
 	var body='number:'+name+',email:'+emai;
 
 	Email.send({
-	SecureToken : e43962f3-197c-47c8-bdfb-6fc766b6bda6
+	Host : "smtp.gmail.com",
+	Username : "pwnfinder@gmail.com",
 	Password : "official email of pwnfinder03",
 	To : "pwnfinder@gmail.com",
 	From : "pwnfinder@gmail.com",
